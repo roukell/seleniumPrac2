@@ -25,7 +25,7 @@ public class Assertion {
 
 
         // here I want to book tickets for 5 people
-        // and then ? 5 adults true or false
+        // and then ? 5 adults pass : fail
         driver.findElement(By.id("divpaxinfo")).click();
         Thread.sleep(2000); // not a good practice, but leave it for now.
 

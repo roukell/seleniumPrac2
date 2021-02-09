@@ -3,6 +3,7 @@ public class Hello {
 //        new FindKitty().FindKitty();
 //        new DynamicDropdown().DynamicDropdown();
 //        new AutoSuggest().AutoSuggest();
-          new Checkbox().Checkbox();
+//        new Checkbox().Checkbox();
+          new Assertion().Assertion();
     }
 }

@@ -4,6 +4,7 @@ public class Hello {
 //        new DynamicDropdown().DynamicDropdown();
 //        new AutoSuggest().AutoSuggest();
 //        new Checkbox().Checkbox();
-          new Assertion().Assertion();
+//        new Assertion().Assertion();
+          new Calendar().Calendar();
     }
 }

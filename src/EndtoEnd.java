@@ -43,6 +43,5 @@ public class EndtoEnd {
         driver.findElement(By.id("ctl00_mainContent_btn_FindFlights")).click();
 
         driver.close();
-
     }
 }

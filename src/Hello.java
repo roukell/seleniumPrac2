@@ -7,6 +7,7 @@ public class Hello {
 //        new Assertion().Assertion();
 //        new Calendar().Calendar();
 //        new EndtoEnd().EndtoEnd();
-        new Alert().Alert();
+//        new Alert().Alert();
+        new ShoppingCart().ShoppingCart();
     }
 }

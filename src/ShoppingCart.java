@@ -9,7 +9,7 @@ import java.util.List;
 public class ShoppingCart {
     public void ShoppingCart() throws InterruptedException {
         int j = 0;
-        String[] shoppingList = {"Cucumber", "Carrot", "Beans"};
+        String[] shoppingList = {"Cucumber", "Carrot", "Beans", "Tomato"};
 
         System.setProperty("webdriver.chrome.driver", "//Users//yi-linglo//Documents//webDrivers//chromedriver");
         WebDriver driver = new ChromeDriver();
@@ -22,7 +22,7 @@ public class ShoppingCart {
         // loop through products
         // use .size() to check ArrayList length
         for (int i = 0;  i < products.size(); i++) {
-            // 1. format product name by removing unnecessary text
+            // 1. format product name by removing unnecessary text e.g. Cucumber - 1Kg
             // name[0] = cucumber
             // name[1] = - 1Kg
             String[] name = products.get(i).getText().split("-");

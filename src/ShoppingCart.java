@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ShoppingCart {
     public void ShoppingCart() throws InterruptedException {
-        int j = 0;
+
         String[] shoppingList = {"Cucumber", "Carrot", "Beans", "Tomato"};
 
         System.setProperty("webdriver.chrome.driver", "//Users//yi-linglo//Documents//webDrivers//chromedriver");
@@ -16,7 +16,13 @@ public class ShoppingCart {
         driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
         // waiting for the page to load
         Thread.sleep(3000);
+        addItems(driver, shoppingList);
 
+        driver.close();
+    }
+
+    public static void addItems(WebDriver driver, String[] shoppingList) {
+        int j = 0;
         List<WebElement> products = driver.findElements(By.cssSelector("h4[class='product-name']"));
 
         // loop through products
@@ -44,7 +50,5 @@ public class ShoppingCart {
                 if (j == shoppingList.length) break;
             }
         }
-
-        driver.close();
     }
 }

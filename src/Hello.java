@@ -8,6 +8,7 @@ public class Hello {
 //        new Calendar().Calendar();
 //        new EndtoEnd().EndtoEnd();
 //        new Alert().Alert();
-        new ShoppingCart().ShoppingCart();
+//        new ShoppingCart().ShoppingCart();
+        new FluentWaitFunction().FluentWaitFunction();
     }
 }
